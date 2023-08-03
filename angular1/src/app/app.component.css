@@ -1,0 +1,26 @@
+.app-container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+app-login {
+  margin-bottom: 20px;
+}
+button {
+  background-color: #ff6f61;
+  color: #ffffff7d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e05a52;
+}
+.logged-in {
+  background-color: #f7f7f7; 
+}

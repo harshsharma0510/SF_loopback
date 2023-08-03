@@ -1,0 +1,13 @@
+{
+    "db": {
+      "name": "db",
+      "connector": "postgresql",
+  "url": "",
+  "host": "localhost",
+  "port": 5432,
+  "user": "postgres",
+  "password": "05101996",
+  "database": "angular",
+      "debug": true 
+    }
+  }

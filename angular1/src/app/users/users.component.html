@@ -1,0 +1,30 @@
+<div *ngIf="isUserLoggedIn">
+<h1>User Data Table</h1>
+<button id="loadDataButton">Load data</button>
+<button id="createUserButton">Create User</button>
+<table id="userDataTable">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Middle Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Phone Number</th>
+      <th>Address</th>
+      <th>Customer</th>
+      <th>Role</th>
+      <th>Password</th>
+      <th>Username</th>
+      <th>Created On</th>
+      <th>Modified On</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+  
+</table>
+</div>
+<div *ngIf="!isUserLoggedIn">
+  <app-login></app-login>
+</div>

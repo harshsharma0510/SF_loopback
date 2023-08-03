@@ -1,0 +1,24 @@
+
+#customerDataTable .actions-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+#customerDataTable .actions-column button {
+  margin: 5px;
+}
+
+#customerDataTable .actions-column .editButton {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+#customerDataTable .actions-column .deleteButton {
+  background-color: #f44336; 
+  color: white;
+}
+
+#customerDataTable .actions-column .showUsersButton {
+  background-color: #2196F3; 
+  color: white;
+}

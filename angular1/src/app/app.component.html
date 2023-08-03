@@ -1,0 +1,14 @@
+
+<div class="app-container" [ngClass]="{ 'logged-in': isUserLoggedIn }">
+     <h1>Welcome to My App</h1>
+     <ng-container *ngIf="!isUserLoggedIn">
+       <app-login (login)="login()"></app-login>
+     </ng-container>
+     <ng-container *ngIf="isUserLoggedIn">
+       <button (click)="logout()">Logout</button>
+       <app-users *ngIf="isUserLoggedIn"></app-users>
+       <app-customers *ngIf="isUserLoggedIn"></app-customers>
+       <app-roles *ngIf="isUserLoggedIn"></app-roles>
+     </ng-container>
+   </div>
+   

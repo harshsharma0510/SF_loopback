@@ -59,9 +59,6 @@ export class User extends Entity {
   })
   address?: string;
 
-  
-  
-
   @property({
     type: 'string',
     postgresql: {

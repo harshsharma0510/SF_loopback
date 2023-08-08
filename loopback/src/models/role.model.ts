@@ -31,8 +31,8 @@ export class Role extends Entity {
   })
   description?: string;
 
-  @property.array(String) // Define permissions as a string array
-  permissions?: string[];
+  @property.array(String) 
+    permissions?: string[];
   
 
   @property({
@@ -51,7 +51,7 @@ export class Role extends Entity {
   })
   modified_on: string;
 
-  @hasMany(() => User) // Define the "hasMany" relationship between Role and User
+  @hasMany(() => User) 
   users?: User[];
   
   // Define well-known properties here
